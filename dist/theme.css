@@ -113,3 +113,35 @@ html[data-theme="redwhite"] .catalog-heading,html[data-theme="barbie"] .catalog-
 html[data-theme="redwhite"] .calendar-toolbar strong,html[data-theme="barbie"] .calendar-toolbar strong{color:var(--light-text)}html[data-theme="redwhite"] .calendar-toolbar button,html[data-theme="barbie"] .calendar-toolbar button{background:var(--accent-soft);border-color:var(--light-line);color:var(--accent)}html[data-theme="redwhite"] .calendar-summary,html[data-theme="barbie"] .calendar-summary{background:#fff;border-color:var(--light-line)}html[data-theme="redwhite"] .calendar-summary span,html[data-theme="barbie"] .calendar-summary span{color:var(--light-muted)}html[data-theme="redwhite"] .calendar-summary b,html[data-theme="barbie"] .calendar-summary b{color:var(--accent)}
 /* Consistent, clean sans-serif typography without an external font dependency. */
 html,html body,html body *{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif!important}
+
+/* Inverted colorful themes: saturated canvas, white actionable controls. */
+html[data-theme="redwhite"]{--light-bg:#c91531;--light-line:#f6c9d0;--accent:#c91531;--accent-soft:#ffe9ed;--accent-glow:#71091d35}
+html[data-theme="barbie"]{--light-bg:#f22b92;--light-line:#f8cce5;--accent:#d81779;--accent-soft:#ffe9f5;--accent-glow:#8c185335}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .app{background:radial-gradient(ellipse at top right,#ffffff26,transparent 55%),var(--light-bg)!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .brand,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .welcome h1,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .section h2,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .calendar-toolbar strong{color:#fff!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .brand span,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .eyebrow,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .text-action{color:#fff!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .gradient{background:linear-gradient(110deg,#fff,#ffe5f1);background-clip:text;-webkit-background-clip:text}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .mark,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .avatar,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .add-fab,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .primary,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .filter.active,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .cancel-filter[aria-pressed="true"],
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .catalog-mode[aria-pressed="true"],
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .settings button:not(.theme-option),
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .calendar-toolbar button,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .provider-link,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .restore-sub,
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .netflix-direct{background:#fff!important;color:var(--accent)!important;border-color:#fff!important;box-shadow:0 5px 18px #6c102a18!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .add-fab{border:5px solid var(--light-bg)!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .hero{background:linear-gradient(135deg,#ffffff28,#ffffff12)!important;border:1px solid #ffffff7a!important;box-shadow:0 12px 28px #6c102a24!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .period-actions{background:#ffffff35!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .period-button[aria-pressed="true"]{background:#fff!important;color:var(--accent)!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .hero-pill{background:#ffffff29!important}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .theme-swatch.redwhite{background:linear-gradient(135deg,#c91531 70%,#fff 70%)}
+html:is([data-theme="redwhite"],[data-theme="barbie"]) .theme-swatch.barbie{background:linear-gradient(135deg,#f22b92 70%,#fff 70%)}
