@@ -1,0 +1,68 @@
+/* SubStop Nightshift — charcoal surfaces and electric neon accents. */
+:root{color-scheme:dark;--night:#07090e;--surface:#11151e;--surface2:#171c27;--line:#293342;--ink:#f5f8ff;--muted:#8994a8;--cyan:#36f5e4;--pink:#ff4fbd;--lime:#c9ff55;--purple:#a77bff;color:var(--ink)!important;background:var(--night)!important}
+html,body{background:var(--night)!important;color:var(--ink)!important}
+.app{background:radial-gradient(ellipse at 95% -4%,#29d8c113,transparent 37%),radial-gradient(ellipse at -10% 45%,#ab3aff0e,transparent 55%),#090c12!important;box-shadow:0 0 90px #000!important}
+.top{padding-top:34px!important}
+.brand{letter-spacing:-1.2px!important;color:#fff!important}
+.mark{background:linear-gradient(140deg,var(--cyan),#15b9d7)!important;color:#061015!important;box-shadow:0 0 0 1px #49ffee55,0 0 24px #34fae45c!important;transform:rotate(-5deg)}
+.brand span{color:var(--cyan)!important}
+.avatar{background:#17202b!important;border:1px solid #37e4d052!important;color:var(--cyan)!important;box-shadow:0 0 16px #23e7d11a}
+.welcome{padding-top:20px!important;padding-bottom:23px!important}
+.eyebrow{color:var(--cyan)!important;font-size:11px!important;letter-spacing:1.55px!important;text-transform:uppercase}
+.welcome h1{font-size:29px!important;color:#f7faff!important;letter-spacing:-1.4px!important;line-height:1.21!important;margin-top:11px!important}
+.gradient{background:linear-gradient(90deg,var(--cyan),#6afbca 40%,var(--lime));background-clip:text;-webkit-background-clip:text;color:transparent!important;text-shadow:0 0 28px #2affdc12}
+.hero{background:radial-gradient(circle at 97% 0%,#31f3db28,transparent 42%),linear-gradient(140deg,#182330,#101722 72%)!important;border:1px solid #2ceada6b!important;border-radius:26px!important;box-shadow:0 0 0 1px #1af7d514 inset,0 12px 42px #00cbb316,0 0 36px #19fbdd0d!important;padding:26px!important}
+.hero:before,.hero:after{border-color:#34f5e421!important}
+.hero-label{color:#a6b5c3!important;font-size:12px!important;letter-spacing:.45px}
+.hero-value{font-size:43px!important;color:var(--ink)!important;text-shadow:0 0 27px #35ffda22}
+.hero-value small{color:var(--cyan)!important;font-size:17px!important}
+.hero-sub{color:#8093a4!important;font-size:11px!important}
+.hero-footer{margin-top:27px!important}
+.hero-pill{background:#0c131d!important;border:1px solid #263744!important;border-radius:14px!important;padding:13px!important}
+.hero-pill span{color:#8296a6!important;font-size:11px!important}
+.hero-pill strong{color:#f1f9fe!important;font-size:15px!important}
+.hero-pill:nth-child(2) strong{color:var(--lime)!important}
+.section{margin-top:29px!important}
+.section h2{color:#f6f8fc!important;font-size:17px!important}
+.text-action{color:var(--cyan)!important;font-size:12px!important;text-shadow:0 0 12px #27f7d73c}
+.upcoming{background:#111721!important;border:1px solid #2c3b48!important;box-shadow:0 8px 25px #0005!important;border-radius:18px!important}
+.datebox{background:#2c1e34!important;color:var(--pink)!important;border:1px solid #ff4fbd3f}
+.upcoming-info b{color:var(--ink)!important}
+.upcoming-info p{color:var(--muted)!important}
+.upcoming-price{color:var(--cyan)!important}
+.filter{background:#111620!important;border-color:#2b3442!important;color:#95a0b4!important}
+.filter.active{background:var(--cyan)!important;color:#04171a!important;border-color:var(--cyan)!important;box-shadow:0 0 22px #28f4dd3d!important}
+.sub{background:linear-gradient(115deg,#151a25,#10151e)!important;border:1px solid #26313f!important;box-shadow:0 6px 18px #0004!important;border-radius:18px!important;transition:border-color .18s,transform .18s}
+.sub:hover{border-color:#49e7d389!important;transform:translateY(-1px)}
+.sub-name,.sub-price b{color:#f5f8ff!important}
+.sub-meta,.sub-price div{color:#8e98a9!important}
+.sub-menu{color:var(--cyan)!important}
+.logo{filter:saturate(1.25);border:1px solid #ffffff15}
+.empty{background:#111722!important;border:1px dashed #344353!important;color:#8290a3!important}
+.empty b{color:#e4edfa!important}
+.bottom{background:#0d1219f2!important;border-top:1px solid #283443!important;box-shadow:0 -14px 32px #0008!important}
+.nav{color:#69788d!important}
+.nav.active{color:var(--cyan)!important;text-shadow:0 0 15px #32f9e77b}
+.add-fab{background:linear-gradient(135deg,var(--cyan),#78ffce)!important;color:#061518!important;border:5px solid #090c12!important;box-shadow:0 0 0 1px #31ffe57a,0 0 26px #20fce185!important;border-radius:19px!important;font-weight:800!important;transition:transform .18s}
+.add-fab:hover{transform:scale(1.06)}
+.modal-backdrop{background:#010408d9!important;backdrop-filter:blur(8px)}
+.sheet{background:linear-gradient(160deg,#18202c,#0d121b)!important;border:1px solid #3b4554!important;border-bottom:0!important;box-shadow:0 -20px 70px #000b!important}
+.sheet h2{color:#f7faff!important}
+.close{background:#293142!important;color:#d9e2f0!important}
+.field label{color:#acb9c8!important}
+.field input,.field select{background:#0b111a!important;color:#edf5ff!important;border:1px solid #334252!important}
+.field input:focus,.field select:focus{border-color:var(--cyan)!important;box-shadow:0 0 0 3px #35f8e421!important}
+.field input::placeholder{color:#5d6c80!important}
+.primary{background:var(--cyan)!important;color:#051519!important;box-shadow:0 0 25px #2dffe15f!important;text-transform:uppercase;letter-spacing:.6px}
+.danger{background:#351827!important;color:#ff79b5!important;border:1px solid #ff4fbd44!important}
+.hint{color:#7e8ea1!important}
+.stat,.month-row,.settings{background:#131923!important;border:1px solid #2c3544!important;color:#edf6ff!important}
+.stat span,.settings p{color:#909daf!important}
+.stat b{color:var(--lime)!important}
+.month-row b{color:#ecf6fb!important}
+.month-row> b{color:var(--cyan)!important}
+.settings button{background:#143431!important;color:var(--cyan)!important;border:1px solid #37eed94c!important;box-shadow:0 0 16px #15efdb12}
+.toast{background:#d5ff61!important;color:#10150c!important;font-weight:800!important;box-shadow:0 0 30px #b7ff5455!important}
+button{transition:filter .16s,box-shadow .16s}button:hover{filter:brightness(1.12)}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--cyan)!important;outline-offset:3px!important}
+@media(min-width:600px){.app{border:1px solid #222e3c}}
