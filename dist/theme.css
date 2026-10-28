@@ -153,3 +153,7 @@ html:is([data-theme="redwhite"],[data-theme="barbie"]) .theme-swatch.barbie{back
 
 /* Large, perfectly centered add symbol in the bottom navigation. */
 .bottom .add-fab{width:66px;height:66px;flex:0 0 66px;display:flex;align-items:center;justify-content:center;padding:0;line-height:1;font-size:38px;font-weight:500;letter-spacing:0;margin-top:-36px;border-radius:20px}
+
+/* Balanced square action with a geometrically centered icon. */
+.bottom .add-fab{width:64px;height:64px;flex-basis:64px;display:grid;place-items:center;margin-top:-35px;border-radius:19px;line-height:0}
+.bottom .add-fab svg{display:block;width:30px;height:30px;flex:none;overflow:visible}
