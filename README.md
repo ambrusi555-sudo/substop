@@ -9,6 +9,7 @@ Mobilny menedżer subskrypcji z czarnym interfejsem i neonowymi akcentami. Dzia�
 - Przeliczanie kosztów miesięcznych i rocznych
 - Przełącznik podsumowania miesięcznie / rocznie
 - Zakładka anulowania z oficjalnymi instrukcjami operatorów i ręcznym potwierdzeniem statusu
+- Dedykowany proces Netflix z bezpośrednim przekierowaniem na oficjalną stronę anulowania i checklistą
 - Terminy nadchodzących płatności i lista kolejnych obciążeń
 - Kategorie, status aktywna/nieaktywna i podstawowe statystyki
 - Zapis lokalny (`localStorage`), eksport i import danych JSON
