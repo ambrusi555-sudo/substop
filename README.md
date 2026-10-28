@@ -12,6 +12,8 @@ Mobilny menedżer subskrypcji z czarnym interfejsem i neonowymi akcentami. Dzia�
 - Dedykowany proces Netflix z bezpośrednim przekierowaniem na oficjalną stronę anulowania i checklistą
 - Widok aktywnych i nieaktywnych subskrypcji w centrum anulowania z możliwością przywrócenia statusu
 - Trzy motywy kolorystyczne wybierane w Ustawieniach: neon, biało-czerwony i Barbie
+- Katalog 14 popularnych usług z logotypami oraz tryb „Stwórz własną”
+- Miesięczny kalendarz płatności ze strzałkami nawigacji i sumą dla wybranego miesiąca
 - Terminy nadchodzących płatności i lista kolejnych obciążeń
 - Kategorie, status aktywna/nieaktywna i podstawowe statystyki
 - Zapis lokalny (`localStorage`), eksport i import danych JSON
@@ -33,6 +35,8 @@ Otwórz `http://localhost:8080`.
 - `dist/index.html` — interfejs i style
 - `dist/theme.css` — czarno-neonowy motyw
 - `dist/features.js` — przełącznik kosztów i centrum anulowania
+- `dist/catalog.js` — wybór popularnych usług i logotypy (Simple Icons)
+- `dist/calendar.js` — miesięczny harmonogram płatności
 - `dist/app.js` — logika i zapis subskrypcji
 - `dist/icon.svg` — ikona
 - `dist/manifest.webmanifest` — konfiguracja instalacji na ekranie głównym
