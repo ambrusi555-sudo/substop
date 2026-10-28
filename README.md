@@ -7,6 +7,8 @@ Mobilny menedżer subskrypcji z czarnym interfejsem i neonowymi akcentami. Dzia�
 - Dodawanie, edycja i usuwanie subskrypcji
 - Płatności tygodniowe, miesięczne i roczne
 - Przeliczanie kosztów miesięcznych i rocznych
+- Przełącznik podsumowania miesięcznie / rocznie
+- Zakładka anulowania z oficjalnymi instrukcjami operatorów i ręcznym potwierdzeniem statusu
 - Terminy nadchodzących płatności i lista kolejnych obciążeń
 - Kategorie, status aktywna/nieaktywna i podstawowe statystyki
 - Zapis lokalny (`localStorage`), eksport i import danych JSON
@@ -27,6 +29,7 @@ Otwórz `http://localhost:8080`.
 
 - `dist/index.html` — interfejs i style
 - `dist/theme.css` — czarno-neonowy motyw
+- `dist/features.js` — przełącznik kosztów i centrum anulowania
 - `dist/app.js` — logika i zapis subskrypcji
 - `dist/icon.svg` — ikona
 - `dist/manifest.webmanifest` — konfiguracja instalacji na ekranie głównym
@@ -34,7 +37,7 @@ Otwórz `http://localhost:8080`.
 
 ## Ważne
 
-To MVP nie łączy się z bankiem, nie pobiera automatycznie subskrypcji i nie wysyła powiadomień push. Dane są przechowywane tylko w bieżącej przeglądarce. Do przeniesienia danych na inne urządzenie użyj eksportu i importu kopii JSON.
+To MVP nie łączy się z bankiem, nie pobiera automatycznie subskrypcji, nie anuluje usług u operatorów i nie wysyła powiadomień push. Zakładka anulowania otwiera oficjalne instrukcje, a status w SubStop aktualizuje się dopiero po ręcznym potwierdzeniu użytkownika. Dane są przechowywane tylko w bieżącej przeglądarce. Do przeniesienia danych na inne urządzenie użyj eksportu i importu kopii JSON.
 
 ## Demo
 
