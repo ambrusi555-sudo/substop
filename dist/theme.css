@@ -145,3 +145,8 @@ html:is([data-theme="redwhite"],[data-theme="barbie"]) .period-button[aria-press
 html:is([data-theme="redwhite"],[data-theme="barbie"]) .hero-pill{background:#ffffff29!important}
 html:is([data-theme="redwhite"],[data-theme="barbie"]) .theme-swatch.redwhite{background:linear-gradient(135deg,#c91531 70%,#fff 70%)}
 html:is([data-theme="redwhite"],[data-theme="barbie"]) .theme-swatch.barbie{background:linear-gradient(135deg,#f22b92 70%,#fff 70%)}
+
+/* Center the custom-subscription dialog while preserving the catalog bottom sheet. */
+.modal-backdrop.custom-centered{align-items:center;padding:18px 14px}
+.modal-backdrop.custom-centered .sheet{width:min(430px,100%);max-height:min(88dvh,780px);border-radius:26px;padding:24px 23px;box-shadow:0 25px 80px #0008;animation:custom-dialog-in .2s ease-out}
+@keyframes custom-dialog-in{from{transform:translateY(12px) scale(.97);opacity:.5}to{transform:translateY(0) scale(1);opacity:1}}
