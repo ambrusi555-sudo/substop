@@ -11,6 +11,7 @@ Mobilny menedżer subskrypcji z czarnym interfejsem i neonowymi akcentami. Dzia�
 - Zakładka anulowania z oficjalnymi instrukcjami operatorów i ręcznym potwierdzeniem statusu
 - Dedykowany proces Netflix z bezpośrednim przekierowaniem na oficjalną stronę anulowania i checklistą
 - Widok aktywnych i nieaktywnych subskrypcji w centrum anulowania z możliwością przywrócenia statusu
+- Trzy motywy kolorystyczne wybierane w Ustawieniach: neon, biało-czerwony i Barbie
 - Terminy nadchodzących płatności i lista kolejnych obciążeń
 - Kategorie, status aktywna/nieaktywna i podstawowe statystyki
 - Zapis lokalny (`localStorage`), eksport i import danych JSON
