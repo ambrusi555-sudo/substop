@@ -1,6 +1,6 @@
 # SubStop 💜
 
-Mobilny menedżer subskrypcji w kolorowym stylu fintech. Działa w przeglądarce na Androidzie, iOS oraz komputerze.
+Mobilny menedżer subskrypcji z czarnym interfejsem i neonowymi akcentami. Działa w przeglądarce na Androidzie, iOS oraz komputerze.
 
 ## Funkcje
 
@@ -26,6 +26,7 @@ Otwórz `http://localhost:8080`.
 ## Struktura
 
 - `dist/index.html` — interfejs i style
+- `dist/theme.css` — czarno-neonowy motyw
 - `dist/app.js` — logika i zapis subskrypcji
 - `dist/icon.svg` — ikona
 - `dist/manifest.webmanifest` — konfiguracja instalacji na ekranie głównym
